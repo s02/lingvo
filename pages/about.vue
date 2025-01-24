@@ -4,12 +4,12 @@ useHead({
   meta: [{ name: 'description', content: 'About my amazing site.' }]
 })
 
-const { t } = useI18n()
+const localePath = useLocalePath()
 </script>
 
 <template>
-  <h1>{{ t('hello') }}</h1>
-  <NuxtLink to="/">Home</NuxtLink>
+  <h1>{{ $t('hello') }}</h1>
+  <NuxtLink :to="localePath('/')">Home</NuxtLink>
   <LangSwitcher />
 </template>
 
