@@ -40,10 +40,10 @@ a {
 }
 
 .container {
-  padding: 0 mixins.responsive(430, 32, 696, 72);
+  padding: 0 mixins.responsive(430, 32, 636, 72);
   margin: 0 auto;
 
-  @media (width >=696px) {
+  @media (width >=636px) {
     padding: 0 72px;
   }
 

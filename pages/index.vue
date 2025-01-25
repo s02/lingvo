@@ -63,6 +63,11 @@ useHead({
         <div class="slide-dot"></div>
         <div class="slide-dot"></div>
       </div>
+      <div class="container">
+        <h1 class="slide-contacts-title">
+          Let’s translate something meaningful together
+        </h1>
+      </div>
     </div>
     <div class="container"></div>
   </div>
