@@ -58,18 +58,42 @@ useHead({
         </div>
       </div>
     </section>
-    <div class="slide-contacts">
+    <section class="slide-promo">
       <div class="slide-dots">
         <div class="slide-dot"></div>
         <div class="slide-dot"></div>
       </div>
       <div class="container">
-        <h1 class="slide-contacts-title">
+        <h1 class="slide-promo-title">
           Let’s translate something meaningful together
         </h1>
+        <article class="slide-promo-services">
+          <h2 class="slide-promo-label">Services</h2>
+          <ul class="slide-promo-list">
+            <li class="slide-promo-service">Translations</li>
+            <li class="slide-promo-service">Notarial Certification</li>
+            <li class="slide-promo-service">Bureau-Certified</li>
+            <li class="slide-promo-service">Apostile</li>
+            <li class="slide-promo-service">Legalization</li>
+          </ul>
+        </article>
+        <div class="slide-contacts">
+          <address class="slide-address">
+            <p class="slide-promo-label">Contacts</p>
+            <p class="slide-promo-address">Skolas iela 21, Rīga<br />LV-1010</p>
+          </address>
+          <address class="slide-web-address">
+            <a href="tel:+37128118166">+371 28 118 166</a>
+            <a href="mailto:info@lingvojumi.lv">info@lingvojumi.lv</a>
+          </address>
+        </div>
+        <footer class="slide-promo-footer">
+          <a href="#">Useful information</a>
+          <a href="#">Terms and conditions</a>
+          <p>2020-2025</p>
+        </footer>
       </div>
-    </div>
-    <div class="container"></div>
+    </section>
   </div>
 </template>
 
