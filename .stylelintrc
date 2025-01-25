@@ -1,6 +1,7 @@
 {
   "extends": [
-    "stylelint-config-recommended"
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-vue"
   ],
   "plugins": [
     "stylelint-prettier"

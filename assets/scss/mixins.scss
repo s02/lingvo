@@ -1,0 +1,24 @@
+@use 'variables';
+
+@function to-px($val) {
+  @return $val * 1px;
+}
+
+/*
+  430 - 239
+  696 - 192
+  This formula interpolates the width smoothly between 239px and 192px as the viewport width (100vw) changes. 
+  47px is the difference between 239px and 192px. 
+  (100vw - 430px) calculates how far along the current viewport is between the breakpoints. 
+  Dividing by (696 - 430) normalizes this range so the scaling happens proportionally.
+  width: calc(239px - 47 * ((100vw - 430px) / (696 - 430)));
+*/
+
+@function responsive($start, $from, $end, $to) {
+  $delta: $end - $start;
+  $delta-start: $to - $from;
+
+  @return calc(
+    to-px($from) + $delta-start * ((100vw - to-px($start)) / $delta)
+  );
+}

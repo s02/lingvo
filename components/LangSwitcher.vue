@@ -1,22 +1,16 @@
 <script setup lang="ts">
-const { setLocale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
+const { locale } = useI18n()
+
+const toggleToLang = computed(() => (locale.value === 'en' ? 'lv' : 'en'))
 </script>
 
 <template>
-  <div class="switch">
-    <button @click="setLocale('en')">en</button>
-    <button @click="setLocale('fr')">fr</button>
-  </div>
-  <div class="switch">
-    <NuxtLink :to="switchLocalePath('en')">English</NuxtLink>
-    <NuxtLink :to="switchLocalePath('fr')">Français</NuxtLink>
-  </div>
+  <NuxtLink class="lang-switcher" :to="switchLocalePath(toggleToLang)">{{
+    locale
+  }}</NuxtLink>
 </template>
 
-<style scoped>
-.switch {
-  display: flex;
-  gap: 10px;
-}
+<style scoped lang="scss">
+@use 'LangSwitcher.scss';
 </style>
