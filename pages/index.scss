@@ -30,7 +30,14 @@
   top: 50%;
   inset-inline-start: 0;
   transform: translateY(-50%);
-  padding-inline-start: 16px;
+  width: 8px;
+  align-items: flex-end;
+  overflow: hidden;
+
+  @media (width >=696px) {
+    width: 32px;
+    padding-inline-start: 16px;
+  }
 }
 
 .slide-dot {
@@ -119,8 +126,12 @@
 
 .slide-main-image {
   display: none;
+  position: relative;
 
   img {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: block;
     width: 100%;
   }
@@ -128,6 +139,7 @@
   @media (width >= 696px) {
     display: block;
     width: 192px;
+    padding-top: 70%;
   }
 
   @media (width >=932px) {
