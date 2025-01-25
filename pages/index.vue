@@ -22,11 +22,11 @@ useHead({
         </h1>
         <div class="slide-main-body">
           <div class="slide-main-content">
-            <main class="slide-main-text">
+            <div class="slide-main-text">
               We provide a full range of translation services to and from any
               language, helping our clients tackle business and legal challenges
               with confidence.
-            </main>
+            </div>
             <div class="slide-main-image">
               <img src="assets/img/slide-1.jpg" alt="" />
             </div>
@@ -41,7 +41,7 @@ useHead({
       </div>
       <div class="container">
         <div class="slide-services-content">
-          <h1 class="slide-services-title">Services</h1>
+          <h2 class="slide-services-title">Services</h2>
           <ul class="slide-services-list">
             <li class="service">Translations</li>
             <li class="service">Notarial Certification</li>
@@ -50,10 +50,10 @@ useHead({
             <li class="service">Legalization</li>
           </ul>
           <article class="total">
-            <main>
-              <h1 class="total-count">1.3M</h1>
+            <div>
+              <h2 class="total-count">1.3M</h2>
               <p class="total-text">Words translated</p>
-            </main>
+            </div>
           </article>
         </div>
       </div>
@@ -64,9 +64,9 @@ useHead({
         <div class="slide-dot"></div>
       </div>
       <div class="container">
-        <h1 class="slide-promo-title">
+        <h2 class="slide-promo-title">
           Let’s translate something meaningful together
-        </h1>
+        </h2>
         <article class="slide-promo-services">
           <h2 class="slide-promo-label">Services</h2>
           <ul class="slide-promo-list">
