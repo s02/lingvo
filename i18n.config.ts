@@ -3,7 +3,7 @@ export default defineI18nConfig(() => ({
   messages: {
     en: {
       '@main-slide$title':
-        'Breaking language barriers, building <span>business</span> bridges.',
+        '<i></i>Breaking language barriers, building <span>business</span> bridges.',
       '@main-slide$text':
         'We provide a full range of translation services to and from any language, helping our clients tackle business and legal challenges with confidence.',
       '@services-slide$title': 'Services',
