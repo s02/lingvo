@@ -1,1 +1,0 @@
-import{_ as s,o as t,c as o,N as a}from"./DQwTz6Bf.js";const c={},r={class:"wrapper"};function d(e,n){return t(),o("div",r,[a(e.$slots,"default",{},void 0)])}const f=s(c,[["render",d],["__scopeId","data-v-32418dfd"]]);export{f as default};

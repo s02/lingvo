@@ -64,7 +64,7 @@ useHead({
           <h2 class="slide-promo-title">
             {{ $t('@promo-slide$title') }}
           </h2>
-          <a href="#" class="btn-start"
+          <a href="https://wa.me/37128118166" target="_blank" class="btn-start"
             ><span>{{ $t('@promo-slide$button') }}</span
             ><i class="btn-start-arrow"></i
           ></a>
