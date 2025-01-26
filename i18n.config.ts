@@ -21,7 +21,7 @@ export default defineI18nConfig(() => ({
     },
     lv: {
       '@main-slide$title':
-        'Valodas barjeru pārvarēšana, <span>uzņēmējdarbības</span> tiltu veidošana.',
+        '<i></i>Valodas barjeru pārvarēšana, <span>uzņēmējdarbības</span> tiltu veidošana.',
       '@main-slide$text':
         'Mēs sniedzam pilnu tulkošanas pakalpojumu klāstu uz un no jebkuras valodas, palīdzot mūsu klientiem ar pārliecību risināt biznesa un juridiskas problēmas.',
       '@services-slide$title': 'Pakalpojumi',
