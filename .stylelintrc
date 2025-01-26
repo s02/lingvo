@@ -7,6 +7,14 @@
     "stylelint-prettier"
   ],
   "rules": {
-    "prettier/prettier": true
+    "prettier/prettier": true,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": [
+          "deep"
+        ]
+      }
+    ]
   }
 }

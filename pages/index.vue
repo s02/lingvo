@@ -17,16 +17,10 @@ useHead({
           <img src="assets/img/logo.svg" alt="" />
           <LangSwitcher />
         </div>
-        <h1 class="slide-main-title">
-          Breaking language barriers, building business bridges.
-        </h1>
+        <h1 class="slide-main-title" v-html="$t('@main-slide$title')"></h1>
         <div class="slide-main-body">
           <div class="slide-main-content">
-            <div class="slide-main-text">
-              We provide a full range of translation services to and from any
-              language, helping our clients tackle business and legal challenges
-              with confidence.
-            </div>
+            <div class="slide-main-text">{{ $t('@main-slide$text') }}</div>
             <div class="slide-main-image">
               <img src="assets/img/slide-1.jpg" alt="" />
             </div>
@@ -41,18 +35,20 @@ useHead({
       </div>
       <div class="container">
         <div class="slide-services-content">
-          <h2 class="slide-services-title">Services</h2>
+          <h2 class="slide-services-title">
+            {{ $t('@services-slide$title') }}
+          </h2>
           <ul class="slide-services-list">
-            <li class="service">Translations</li>
-            <li class="service">Notarial Certification</li>
-            <li class="service">Bureau-Certified</li>
-            <li class="service">Apostile</li>
-            <li class="service">Legalization</li>
+            <li class="service">{{ $t('@service$1') }}</li>
+            <li class="service">{{ $t('@service$2') }}</li>
+            <li class="service">{{ $t('@service$3') }}</li>
+            <li class="service">{{ $t('@service$4') }}</li>
+            <li class="service">{{ $t('@service$5') }}</li>
           </ul>
           <article class="total">
             <div>
               <h2 class="total-count">1.3M</h2>
-              <p class="total-text">Words translated</p>
+              <p class="total-text">{{ $t('@services-slide$counter') }}</p>
             </div>
           </article>
         </div>
@@ -64,22 +60,28 @@ useHead({
         <div class="slide-dot"></div>
       </div>
       <div class="container">
-        <h2 class="slide-promo-title">
-          Let’s translate something meaningful together
-        </h2>
+        <div class="slide-promo-header">
+          <h2 class="slide-promo-title">
+            {{ $t('@promo-slide$title') }}
+          </h2>
+          <a href="#" class="btn-start"
+            ><span>{{ $t('@promo-slide$button') }}</span
+            ><i class="btn-start-arrow"></i
+          ></a>
+        </div>
         <article class="slide-promo-services">
-          <h2 class="slide-promo-label">Services</h2>
+          <h2 class="slide-promo-label">{{ $t('@services-slide$title') }}</h2>
           <ul class="slide-promo-list">
-            <li class="slide-promo-service">Translations</li>
-            <li class="slide-promo-service">Notarial Certification</li>
-            <li class="slide-promo-service">Bureau-Certified</li>
-            <li class="slide-promo-service">Apostile</li>
-            <li class="slide-promo-service">Legalization</li>
+            <li class="slide-promo-service">{{ $t('@service$1') }}</li>
+            <li class="slide-promo-service">{{ $t('@service$2') }}</li>
+            <li class="slide-promo-service">{{ $t('@service$3') }}</li>
+            <li class="slide-promo-service">{{ $t('@service$4') }}</li>
+            <li class="slide-promo-service">{{ $t('@service$5') }}</li>
           </ul>
         </article>
         <div class="slide-contacts">
           <address class="slide-address">
-            <p class="slide-promo-label">Contacts</p>
+            <p class="slide-promo-label">{{ $t('@contacts@label') }}</p>
             <p class="slide-promo-address">Skolas iela 21, Rīga<br />LV-1010</p>
           </address>
           <address class="slide-web-address">
@@ -88,8 +90,8 @@ useHead({
           </address>
         </div>
         <footer class="slide-promo-footer">
-          <a href="#">Useful information</a>
-          <a href="#">Terms and conditions</a>
+          <a href="#">{{ $t('@footer$info') }}</a>
+          <a href="#">{{ $t('@footer$terms') }}</a>
           <p>2020-2025</p>
         </footer>
       </div>

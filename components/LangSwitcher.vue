@@ -7,7 +7,7 @@ const toggleToLang = computed(() => (locale.value === 'en' ? 'lv' : 'en'))
 
 <template>
   <NuxtLink class="lang-switcher" :to="switchLocalePath(toggleToLang)">{{
-    locale
+    locale === 'en' ? 'Lat' : 'En'
   }}</NuxtLink>
 </template>
 
