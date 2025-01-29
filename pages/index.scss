@@ -80,6 +80,16 @@
     display: inline-block;
     width: mixins.responsive(430, 128, 696, 144);
 
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 0.6lh;
+      height: 0.6lh;
+      background-image: url('../assets/img/symbol.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
     @media (width >=696px) {
       width: 144px;
     }

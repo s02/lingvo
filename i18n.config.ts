@@ -21,20 +21,20 @@ export default defineI18nConfig(() => ({
     },
     lv: {
       '@main-slide$title':
-        '<i></i>Valodas barjeru pārvarēšana, <span>uzņēmējdarbības</span> tiltu veidošana.',
+        '<i></i>Pārvarot valodas barjeras, radot <span>biznesa</span> tiltus.',
       '@main-slide$text':
-        'Mēs sniedzam pilnu tulkošanas pakalpojumu klāstu uz un no jebkuras valodas, palīdzot mūsu klientiem ar pārliecību risināt biznesa un juridiskas problēmas.',
+        'Mēs nodrošinām visu veidu tulkošanas pakalpojumus jebkurā valodā, palīdzot mūsu klientiem ar pārliecību risināt biznesa un juridiskos izaicinājumus.',
       '@services-slide$title': 'Pakalpojumi',
       '@service$1': 'Tulkojumi',
-      '@service$2': 'Notariāls apliecinājums',
-      '@service$3': 'Biroja sertificēts',
+      '@service$2': 'Notariālie apliecinājumi',
+      '@service$3': 'Biroja apliecinājumi',
       '@service$4': 'Apostille',
       '@service$5': 'Legalizācija',
-      '@services-slide$counter': 'Vārdi tulkoti',
-      '@promo-slide$title': 'Tulkosim kopā kaut ko nozīmīgu',
-      '@promo-slide$button': 'Sāciet darbu',
+      '@services-slide$counter': 'Iztulkoti vārdi',
+      '@promo-slide$title': 'Tulkosim kopā ko jēgpilnu',
+      '@promo-slide$button': 'Sākt jau tagad',
       '@footer$info': 'Noderīga informācija',
-      '@footer$terms': 'Noteikumi un nosacījumi',
+      '@footer$terms': 'Privātuma politika',
       '@contacts@label': 'Kontakti'
     }
   }
