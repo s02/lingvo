@@ -50,8 +50,7 @@ useSeoMeta({
     'Mēs sniedzam pilnu tulkošanas pakalpojumu klāstu uz un no jebkuras valodas. Apostille, tulkošana un notariālie apliecinājumi.',
   ogDescription:
     'Mēs sniedzam pilnu tulkošanas pakalpojumu klāstu uz un no jebkuras valodas. Apostille, tulkošana un notariālie apliecinājumi.',
-  ogImage: 'https://kukin.me/og.png',
-  twitterCard: 'summary_large_image'
+  ogImage: 'https://lingvojumi.lv/og.png'
 })
 </script>
 
