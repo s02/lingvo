@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/lingvoju/public_html/
-    - /bin/cp -R .output/public/ $DEPLOYPATH
+    - export DEPLOYPATH=/home3/lingvoju/public_html
+    - /bin/cp -R .output/public/. $DEPLOYPATH
