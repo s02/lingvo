@@ -1,4 +1,0 @@
-const App_vue_vue_type_style_index_0_lang = '@import"https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap";body,html{max-width:100vw}body{background:#05171f;color:#05171f;font-family:Inter,serif;font-optical-sizing:auto;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin:0;padding:0}body,h1,h2,h3{font-weight:500}*{box-sizing:border-box;margin:0;padding:0}a{color:inherit;text-decoration:none}.container{margin:0 auto;padding:0 calc(-51.49515px + 19.41748vw)}@media (width >= 636px){.container{padding:0 72px}}@media (width >= 932px){.container{padding:0 calc(37.18391px + 3.73563vw)}}@media (width >= 1280px){.container{padding:0 calc(-3px + 6.875vw)}}@media (width >= 1440px){.container{padding:0 96px}}';
-
-export { App_vue_vue_type_style_index_0_lang as A };
-//# sourceMappingURL=entry-styles-1.mjs-DBr3H4m0.mjs.map
