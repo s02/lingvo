@@ -3,7 +3,7 @@ export default defineI18nConfig(() => ({
   messages: {
     en: {
       '@main-slide$title':
-        '<i></i>Breaking language barriers, building <span>business</span> bridges.',
+        '<i></i>Breaking language barriers, building business bridges.',
       '@main-slide$text':
         'We provide a full range of translation services to and from any language, helping our clients tackle business and legal challenges with confidence.',
       '@services-slide$title': 'Services',
@@ -21,7 +21,7 @@ export default defineI18nConfig(() => ({
     },
     lv: {
       '@main-slide$title':
-        '<i></i>Pārvarot valodas barjeras, radot <span>biznesa</span> tiltus.',
+        '<i></i>Pārvarot valodas barjeras, radot biznesa tiltus.',
       '@main-slide$text':
         'Mēs nodrošinām visu veidu tulkošanas pakalpojumus jebkurā valodā, palīdzot mūsu klientiem ar pārliecību risināt biznesa un juridiskos izaicinājumus.',
       '@services-slide$title': 'Pakalpojumi',
