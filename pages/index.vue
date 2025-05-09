@@ -1,7 +1,9 @@
 <script setup lang="ts">
+const { t } = useI18n()
+
 useHead({
-  title: 'Home | App',
-  meta: [{ name: 'description', content: 'My amazing site.' }]
+  title: 'Lingvojumi',
+  meta: [{ name: 'description', content: t('@page@home$description') }]
 })
 </script>
 

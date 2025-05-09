@@ -28,6 +28,13 @@ useHead({
     },
     {
       type: 'text/javascript',
+      src: 'https://analytics.ahrefs.com/analytics.js',
+      'data-key': 'mEHuPZYkxelmhKRVTNZWyQ',
+      async: true,
+      tagPosition: 'bodyClose'
+    },
+    {
+      type: 'text/javascript',
       innerHTML: `
         window.dataLayer = window.dataLayer || []
         function gtag() {

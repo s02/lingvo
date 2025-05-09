@@ -2,6 +2,10 @@ export default defineI18nConfig(() => ({
   legacy: false,
   messages: {
     en: {
+      '@page@home$title':
+        'End-to-end solutions: We manage every detail, so you don’t have to.',
+      '@page@home$description':
+        'We provide a full range of translation services to and from any language, helping our clients tackle business and legal challenges with confidence.',
       '@main-slide$title':
         '<i></i>End-to-end solutions: We manage every detail, so you don’t have to.',
       '@main-slide$text':
@@ -20,6 +24,10 @@ export default defineI18nConfig(() => ({
       '@contacts@label': 'Contacts'
     },
     lv: {
+      '@page@home$title':
+        'Pilnīgi risinājumi: mēs pārvaldām katru detaļu, tāpēc jums tas nav jādara.',
+      '@page@home$description':
+        'Mēs piedāvājam pilnu tulkošanas pakalpojumu klāstu jebkurās valodās, un palīdzam saviem klientiem pārliecinoši risināt komercdarbības un juridiskus jautājumus.',
       '@main-slide$title':
         '<i></i>Pilnīgi risinājumi: mēs pārvaldām katru detaļu, tāpēc jums tas nav jādara.',
       '@main-slide$text':
