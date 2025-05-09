@@ -29,7 +29,7 @@ useHead({
     {
       type: 'text/javascript',
       src: 'https://analytics.ahrefs.com/analytics.js',
-      'data-key': 'mEHuPZYkxelmhKRVTNZWyQ',
+      'data-key': 'e2Or48FSPjianxH7A4B4JQ',
       async: true,
       tagPosition: 'bodyClose'
     },
